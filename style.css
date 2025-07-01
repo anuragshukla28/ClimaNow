@@ -21,26 +21,28 @@ body {
 
 /* Input container */
 .input-container {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.85); /* lighter & more visible */
     padding: 20px 30px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 25px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
-
 #city-input {
     padding: 10px;
-    width: 200px;
-    border: none;
-    border-radius: 5px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
     outline: none;
     font-size: 1rem;
-    background-color: #f0f0f0;
+    background-color: #fefefe;
     color: #333;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 #get-weather-btn {
