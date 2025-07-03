@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     const API_KEY ="e7916d8a941e9ab8607baa605670bb91";// env variables
 
-    
      fetchbtn.addEventListener('click',async ()=>{
      const city= cityinput.value.trim();
      if(!city)return;
@@ -90,7 +89,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         weatherIcon.classList.add("hidden");  
     }
 
-
+    cityinput.value = "Delhi";
+    fetchbtn.click();
     
 
 
